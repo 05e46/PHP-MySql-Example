@@ -11,3 +11,9 @@ Requirement:
 
 Message delete from inbox will be removed from Receiver inbox, but not from senders
 sent folder
+
+login.php purpose:
+take in the parameters entered by user in the home.php page
+add those credentials into user table inside db3
+ if success: print message saying so
+ else (no success) print message saying so
