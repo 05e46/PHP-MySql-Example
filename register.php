@@ -4,7 +4,7 @@ $user=$_POST=['username'];
 $name=$_POST=['fullname'];
 $lock=$_POST=['password'];
 //connect to database
-$conn = mysql_connect('localhost','root','perez123');
+$conn = mysqli_connect('localhost','root','perez123');
 //test connection
 if(!$conn){
   die('Failed to connect to database'.mysql_error());
@@ -19,7 +19,7 @@ else{
     echo"Failed to add user into DB3";
   }
   else{
-    echo"Added User successfully, directing to dashboard"
+    echo"Added User successfully, directing to dashboard";
     header(dashboard.php);
   }
 }
