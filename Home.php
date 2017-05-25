@@ -1,6 +1,8 @@
 <html>
 <h2>New User? Click Register</h2>
-<form action="register.php" method="GET">
+<form action="register.php" method="post">
+    <h3>Please enter the following fields</h3>
+    <label for ""
     <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
 </form>
     <br>
